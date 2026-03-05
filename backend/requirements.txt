@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+google-genai
+numpy
+python-dotenv
+websockets

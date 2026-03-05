@@ -1,0 +1,28 @@
+{
+  "name": "avatar-poc-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@heygen/streaming-avatar": "^2.0.0",
+    "@ricky0123/vad-web": "^0.0.22",
+    "livekit-client": "^2.5.9",
+    "next": "14.2.5",
+    "onnxruntime-web": "^1.20.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "simli-client": "^3.0.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@types/uuid": "^10.0.0",
+    "typescript": "^5.5.4"
+  }
+}
